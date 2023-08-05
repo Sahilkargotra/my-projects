@@ -61,7 +61,7 @@ return outputDiv;
     }
     else {
       this.className = "btn btn-outline-success";
-      this.innerText = "Added to Cart";
+      this.innerText = "Add to Cart";
       productOperations.removeFromCart(pizze);
     }
     printCart();
