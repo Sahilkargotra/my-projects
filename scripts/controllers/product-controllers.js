@@ -60,7 +60,7 @@ return outputDiv;
       productOperations.addToCart(pizze);
     }
     else {
-      this.className = "btn btn-outline-success";
+      this.className = "btn btn-outline-primary";
       this.innerText = "Add to Cart";
       productOperations.removeFromCart(pizze);
     }
